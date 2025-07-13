@@ -1,4 +1,4 @@
-# Q-commerce-apps-EDA : A Deep Dive into the Delivery Performance, Customer Sentiment, and Platform Efficiency of India's Top Instant Delivery Apps
+# Q-commerce-apps-EDA : A Deep Dive into the Delivery Performance, Customer Sentiment, and Platform Efficiency of India's Top Instant Delivery Apps.
 
 Project Overview
 In the age of 10-minute delivery promises, instant ecommerce platforms like Blinkit, Swiggy Instamart, and JioMart are transforming consumer habits. But behind the scenes, how well are they really performing?
