@@ -53,3 +53,8 @@ jupyter notebook ecommerce_delivery_app_eda.ipynb
 ## Tech stack
 
 Python (pandas, NumPy, seaborn, matplotlib), TextBlob, Jupyter Notebook
+
+
+---
+
+<sub>Made by [tanaytejush](https://github.com/tanaytejush)</sub>
