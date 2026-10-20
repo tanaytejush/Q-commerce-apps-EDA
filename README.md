@@ -1,60 +1,55 @@
-# Q-commerce-apps-EDA : A Deep Dive into the Delivery Performance, Customer Sentiment, and Platform Efficiency of India's Top Instant Delivery Apps.
+# Q-Commerce Apps EDA
 
-Project Overview
-In the age of 10-minute delivery promises, instant ecommerce platforms like Blinkit, Swiggy Instamart, and JioMart are transforming consumer habits. But behind the scenes, how well are they really performing?
+**A deep dive into the delivery performance, customer sentiment and platform efficiency of India's top instant delivery apps.**
 
-This project analyzes 100,000 real-world delivery records from top platforms to uncover what affects delivery success, customer satisfaction, and refund behaviors. Using Python and Jupyter Notebook, we performed detailed Exploratory Data Analysis (EDA) to gain actionable insights.
+In the age of 10-minute delivery promises, quick-commerce platforms like Blinkit, Swiggy Instamart and JioMart are changing how people shop. This project analyses **100,000 delivery records** to find out what drives delivery success, customer satisfaction and refund behaviour.
 
-What This Project Covers:
-Cleaned and explored delivery data across platforms.
+## What this project covers
 
-Performed univariate and bivariate analysis.
+- Data cleaning and exploration across platforms
+- Univariate and bivariate analysis
+- Sentiment analysis of customer feedback with TextBlob
+- Visualisation of trends across platforms, product categories and feedback
+- Business insights drawn from the data
 
-Conducted sentiment analysis using TextBlob.
+## Key insights
 
-Visualized trends across platforms, categories, and feedback.
+### Delivery performance
+- Average delivery time across all platforms: **~29.5 minutes**
+- **13.7%** of orders were delayed, often leading to poor ratings and refund requests
+- Swiggy Instamart and Blinkit outperformed JioMart on delivery efficiency and consistency
 
-Derived actionable business insights.
+### Customer sentiment and ratings
+- Feedback was mostly very positive or very negative; neutral feedback was rare
+- Delayed orders correlated strongly with negative sentiment and low service ratings
+- Average service rating: **~3.2 / 5**
 
-Key Insights from the Data:
+### Refund behaviour
+- **46%** of orders had refund requests
+- Higher refund rates were linked to delays, high order values and negative feedback
+- Fruits and dairy had more refund complaints, pointing to packaging or freshness issues
 
- 1. Delivery Performance
-Average delivery time across all platforms: ~29.5 minutes.
+## Business implications
 
-13.7% of orders were delayed, often leading to poor ratings and refund requests.
+- **Small local businesses are at risk.** Deep discounts and near-instant delivery are hard for neighbourhood stores to match.
+- **Efficiency matters more than raw speed.** Fast delivery means little if quality is poor or items are missing.
+- **Balance wins.** Platforms that combine speed with accuracy and customer care should see better retention and lower refund losses.
 
-Swiggy Instamart and Blinkit outperformed JioMart in delivery efficiency and consistency.
+## Files
 
- 2. Customer Sentiment & Ratings
-Most feedback was either very positive or very negative — neutral feedback was rare.
+| File | Description |
+|------|-------------|
+| `ecommerce_delivery_app_eda.ipynb` | Full analysis notebook |
+| `Ecommerce_Delivery_Analytics_New.csv` | Raw delivery dataset |
+| `Ecommerce_Analytics_Cleaned.csv` | Cleaned dataset used for analysis |
 
-Delayed orders had a strong correlation with negative sentiment and low service ratings.
+## Run it
 
-Average service rating: ~3.2/5 across platforms.
+```bash
+pip install pandas numpy seaborn matplotlib textblob jupyter
+jupyter notebook ecommerce_delivery_app_eda.ipynb
+```
 
- 3. Refund Behavior
-A surprising 46% of orders had refund requests.
+## Tech stack
 
-Higher refund rates were linked to delayed deliveries, high order values, and negative feedback.
-
-Categories like fruits and dairy saw more refund complaints, indicating packaging or freshness issues.
-
-
-Business Implications:
-
-While these platforms are improving speed and convenience for consumers, the data tells a deeper story:
-
-Small local businesses and grocery shops are at risk. With platforms offering deep discounts and near-instant service, neighborhood stores struggle to match the convenience and tech infrastructure.
-
-Efficiency matters more than speed. Fast deliveries mean little if quality is poor or items are missing.
-
-Platforms that balance speed with accuracy and customer care will see better retention and lower refund losses.
-
-Technologies Used:
-Python (Pandas, NumPy, Seaborn, Matplotlib)
-
-Jupyter Notebook
-
-NLP with TextBlob
-
-Data Visualization for Insights
+Python (pandas, NumPy, seaborn, matplotlib), TextBlob, Jupyter Notebook
